@@ -2,7 +2,7 @@
 # Copyright (C) 2026 Tim Lauridsen
 # This file is distributed under the GNU GPLv3 license.
 # Tim Lauridsen, 2026.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -20,795 +20,797 @@ msgstr ""
 #: yumex/backend/dnf5daemon/__init__.py:75
 #: yumex/backend/flatpak/transaction.py:65 yumex/ui/flatpak_result.py:37
 msgid "Installing"
-msgstr ""
+msgstr "インストール中"
 
 #: yumex/backend/dnf5daemon/__init__.py:77
 msgid "Upgrading"
-msgstr ""
+msgstr "アップグレード中"
 
 #: yumex/backend/dnf5daemon/__init__.py:79
 msgid "Downgrading"
-msgstr ""
+msgstr "ダウングレード中"
 
 #: yumex/backend/dnf5daemon/__init__.py:81
 msgid "Reinstalling"
-msgstr ""
+msgstr "再インストール中"
 
 #: yumex/backend/dnf5daemon/__init__.py:83
 msgid "Removing"
-msgstr ""
+msgstr "削除中"
 
 #: yumex/backend/dnf5daemon/__init__.py:85
 msgid "Replacing"
-msgstr ""
+msgstr "置換中"
 
 #: yumex/backend/dnf5daemon/__init__.py:327
 #: yumex/backend/dnf5daemon/__init__.py:347 yumex/ui/window.py:221
 msgid "Building Transaction"
-msgstr ""
+msgstr "トランザクションを構築中"
 
 #: yumex/backend/dnf5daemon/__init__.py:369
 #: yumex/backend/dnf5daemon/__init__.py:478 yumex/ui/window.py:245
 msgid "Building Offline Transaction"
-msgstr ""
+msgstr "オフライントランザクションを構築中"
 
 #: yumex/backend/dnf5daemon/__init__.py:371
 #: yumex/backend/dnf5daemon/__init__.py:390
 #: yumex/backend/dnf5daemon/__init__.py:480
 msgid "Applying Transaction"
-msgstr ""
+msgstr "トランザクションを適用中"
 
 #: yumex/backend/dnf5daemon/__init__.py:379
 msgid "Verifying Packages"
-msgstr ""
+msgstr "パッケージを検証中"
 
 #: yumex/backend/dnf5daemon/__init__.py:395
 msgid "Running Scriptlets"
-msgstr ""
+msgstr "スクリプトレットを実行中"
 
 #: yumex/backend/dnf5daemon/__init__.py:433
 msgid "Download Packages"
-msgstr ""
+msgstr "パッケージをダウンロード中"
 
 #: yumex/backend/dnf5daemon/__init__.py:435
 msgid "Download Repository Information"
-msgstr ""
+msgstr "リポジトリ情報をダウンロード中"
 
 #: yumex/backend/flatpak/transaction.py:67 yumex/ui/flatpak_result.py:39
 msgid "Uninstalling"
-msgstr ""
+msgstr "アンインストール中"
 
 #: yumex/backend/flatpak/transaction.py:69 yumex/ui/flatpak_result.py:41
 msgid "Updating"
-msgstr ""
+msgstr "更新中"
 
 #: yumex/backend/flatpak/transaction.py:181
 msgid "flatpak transaction failed"
-msgstr ""
+msgstr "flatpak トランザクションが失敗しました"
 
 #: yumex/ui/__init__.py:44
 msgid "Queued for deletion"
-msgstr ""
+msgstr "削除待ち"
 
 #: yumex/ui/__init__.py:46
 msgid "Queued for installation"
-msgstr ""
+msgstr "インストール待ち"
 
 #: yumex/ui/__init__.py:48
 msgid "Queued for updating"
-msgstr ""
+msgstr "更新待ち"
 
 #: yumex/ui/__init__.py:50
 msgid "Queued for reinstallation"
-msgstr ""
+msgstr "再インストール待ち"
 
 #: yumex/ui/__init__.py:52
 msgid "Queued for downgrading"
-msgstr ""
+msgstr "ダウングレード待ち"
 
 #: yumex/ui/__init__.py:54
 msgid "Queued for distribution synchronization"
-msgstr ""
+msgstr "ディストリビューション同期待ち"
 
 #: yumex/ui/package_view.py:96
 msgid "Loading Packages"
-msgstr ""
+msgstr "パッケージを読み込み中"
 
 #: yumex/ui/package_view.py:97
 msgid "This may take a little while"
-msgstr ""
+msgstr "しばらく時間がかかる場合があります"
 
 #: yumex/ui/flatpak_view.py:90
 msgid "Flatpaks were updated"
-msgstr ""
+msgstr "Flatpak が更新されました"
 
 #: yumex/ui/flatpak_view.py:96
 msgid "Unused flatpaks were removed"
-msgstr ""
+msgstr "未使用の flatpak が削除されました"
 
 #: yumex/ui/package_info.py:26
 msgid "Bugfix"
-msgstr ""
+msgstr "バグ修正"
 
 #: yumex/ui/package_info.py:27
 msgid "New Package"
-msgstr ""
+msgstr "新規パッケージ"
 
 #: yumex/ui/package_info.py:28
 msgid "Security"
-msgstr ""
+msgstr "セキュリティ"
 
 #: yumex/ui/package_info.py:29
 msgid "Enhancement"
-msgstr ""
+msgstr "機能強化"
 
 #: yumex/ui/package_info.py:61
 msgid "no update information found"
-msgstr ""
+msgstr "更新情報が見つかりません"
 
 #: yumex/ui/package_info.py:93
 msgid "Undefined"
-msgstr ""
+msgstr "未定義"
 
 #: yumex/ui/dialogs.py:16 data/ui/error_dialog.blp:28
 msgid "Quit"
-msgstr ""
+msgstr "終了"
 
 #: yumex/ui/dialogs.py:23 data/ui/error_dialog.blp:82
 msgid "Report Issue on GitHub"
-msgstr ""
+msgstr "GitHub で問題を報告"
 
 #: yumex/ui/dialogs.py:45
 msgid "Install GPG Key"
-msgstr ""
+msgstr "GPG キーをインストール"
 
 #: yumex/ui/dialogs.py:53 yumex/ui/dialogs.py:82
 msgid "Yes"
-msgstr ""
+msgstr "はい"
 
 #: yumex/ui/dialogs.py:55 yumex/ui/dialogs.py:84
 msgid "No"
-msgstr ""
+msgstr "いいえ"
 
 #: yumex/ui/flatpak_search.py:218
 msgid "Open on flathub.org"
-msgstr ""
+msgstr "flathub.org で開く"
 
 #: yumex/ui/window.py:202 yumex/ui/window.py:338
 msgid "Transaction completed succesfully"
-msgstr ""
+msgstr "トランザクションが正常に完了しました"
 
 #: yumex/ui/window.py:236
 msgid "Nothing to do in this transaction"
-msgstr ""
+msgstr "このトランザクションには何もありません"
 
 #: yumex/ui/window.py:247
 msgid "Running Transaction"
-msgstr ""
+msgstr "トランザクションを実行中"
 
 #: yumex/ui/window.py:277
 msgid "Running Flatpak Transaction"
-msgstr ""
+msgstr "Flatpak トランザクションを実行中"
 
 #: yumex/ui/window.py:522
 msgid "Offline transaction"
-msgstr ""
+msgstr "オフライントランザクション"
 
 #: yumex/ui/window.py:523
 msgid ""
 "Do you want to prepare the offline transaction to be applied on next reboot "
 "?"
-msgstr ""
+msgstr "次の再起動時に適用するオフライントランザクションを準備しますか？"
 
 #: yumex/ui/window.py:529
 msgid "Offline trasaction prepared to be applied on next reboot"
-msgstr ""
+msgstr "オフライントランザクションが次の再起動時に適用されるように準備されました"
 
 #: yumex/ui/window.py:532
 msgid "Offline transaction prepare failed"
-msgstr ""
+msgstr "オフライントランザクションの準備に失敗しました"
 
 #: yumex/ui/window.py:550
 msgid "system upgrade target release must to larger than current release"
-msgstr ""
+msgstr "システムアップグレードのターゲットリリースは現在のリリースより大きくなければなりません"
 
 #: yumex/ui/window.py:559
 msgid "Offline Transaction completed succesfully"
-msgstr ""
+msgstr "オフライントランザクションが正常に完了しました"
 
 #: yumex/ui/window.py:571
 msgid "Distro-Sync completed succesfully"
-msgstr ""
+msgstr "Distro-Sync が正常に完了しました"
 
 #: yumex/ui/window.py:580
 msgid "Offline transaction cancelled"
-msgstr ""
+msgstr "オフライントランザクションがキャンセルされました"
 
 #: yumex/ui/window.py:583
 msgid "Offline transaction cancel failed"
-msgstr ""
+msgstr "オフライントランザクションのキャンセルに失敗しました"
 
 #: yumex/ui/transaction_result.py:125
 msgid "Packages for installation"
-msgstr ""
+msgstr "インストール対象パッケージ"
 
 #: yumex/ui/transaction_result.py:127
 msgid "Packages for deletion"
-msgstr ""
+msgstr "削除対象パッケージ"
 
 #: yumex/ui/transaction_result.py:129 yumex/ui/transaction_result.py:131
 msgid "Packages for updating"
-msgstr ""
+msgstr "更新対象パッケージ"
 
 #: yumex/ui/transaction_result.py:133
 msgid "Skipped Packages"
-msgstr ""
+msgstr "スキップされたパッケージ"
 
 #: yumex/ui/transaction_result.py:135
 msgid "Packages for downgrading"
-msgstr ""
+msgstr "ダウングレード対象パッケージ"
 
 #: yumex/ui/transaction_result.py:137
 msgid "Packages for re-installation"
-msgstr ""
+msgstr "再インストール対象パッケージ"
 
 #: yumex/ui/transaction_result.py:139
 msgid "Packages for distribution synchronization"
-msgstr ""
+msgstr "ディストリビューション同期対象パッケージ"
 
 #: yumex/main.py:181
 msgid ""
 "Yum Extender is a Package management to install, update and remove packages"
-msgstr ""
+msgstr "Yum Extender はパッケージのインストール、更新、削除を行うパッケージ管理ツールです"
 
 #: yumex/main.py:184
 msgid "Special thanks to"
-msgstr ""
+msgstr "スペシャルサンクス"
 
 #: yumex/main.py:215 yumex/main.py:222
 msgid "dnf5daemon-server Error"
-msgstr ""
+msgstr "dnf5daemon-server エラー"
 
 #: yumex/main.py:230
 msgid "Yum Extender Ctritical Error"
-msgstr ""
+msgstr "Yum Extender の致命的なエラー"
 
 #: data/ui/advanced_actions.blp:5 data/ui/advanced_actions.blp:17
 #: data/ui/window.blp:293
 msgid "Advanced Actions"
-msgstr ""
+msgstr "高度な操作"
 
 #: data/ui/advanced_actions.blp:29
 msgid "Refresh DNF Cache"
-msgstr ""
+msgstr "DNF キャッシュを更新"
 
 #: data/ui/advanced_actions.blp:31
 msgid "Expire the DNF cache, so it will be refreshed from repositories."
-msgstr ""
+msgstr "DNF キャッシュを期限切れにして、リポジトリから再取得します。"
 
 #: data/ui/advanced_actions.blp:35
 msgid "Distro-Sync System"
-msgstr ""
+msgstr "システムの Distro-Sync"
 
 #: data/ui/advanced_actions.blp:37
 msgid "distro-sync all installed packages to the repo version."
-msgstr ""
+msgstr "インストール済みパッケージをすべてリポジトリのバージョンに distro-sync します。"
 
 #: data/ui/advanced_actions.blp:41
 msgid "System Upgrade"
-msgstr ""
+msgstr "システムアップグレード"
 
 #: data/ui/advanced_actions.blp:45
 msgid "Fedora release"
-msgstr ""
+msgstr "Fedora リリース"
 
 #: data/ui/advanced_actions.blp:49
 msgid "Run System Upgrade"
-msgstr ""
+msgstr "システムアップグレードを実行"
 
 #: data/ui/advanced_actions.blp:51
 msgid "Upgrade system to next release (offline)."
-msgstr ""
+msgstr "システムを次のリリースにアップグレードします（オフライン）。"
 
 #: data/ui/advanced_actions.blp:56
 msgid "Offline Transaction  is available"
-msgstr ""
+msgstr "オフライントランザクションが利用可能です"
 
 #: data/ui/advanced_actions.blp:61
 msgid "Cancel Transaction"
-msgstr ""
+msgstr "トランザクションをキャンセル"
 
 #: data/ui/advanced_actions.blp:63
 msgid "Cancel and clear offline transaction."
-msgstr ""
+msgstr "オフライントランザクションをキャンセルしてクリアします。"
 
 #: data/ui/advanced_actions.blp:71
 msgid "Apply on Reboot"
-msgstr ""
+msgstr "再起動時に適用"
 
 #: data/ui/advanced_actions.blp:73
 msgid "Prepare transaction for apply on next boot."
-msgstr ""
+msgstr "次回起動時に適用するトランザクションを準備します。"
 
 #: data/ui/flatpak_result.blp:16
 msgid "Flatpak Transaction Result"
-msgstr ""
+msgstr "Flatpak トランザクション結果"
 
 #: data/ui/flatpak_result.blp:21 data/ui/flatpak_search.blp:21
 #: data/ui/transaction_result.blp:21
 msgid "Cancel"
-msgstr ""
+msgstr "キャンセル"
 
 #: data/ui/flatpak_result.blp:36 data/ui/transaction_result.blp:36
 msgid "Confirm"
-msgstr ""
+msgstr "確認"
 
 #: data/ui/flatpak_row.blp:50
 msgid "Update is available"
-msgstr ""
+msgstr "更新が利用可能です"
 
 #: data/ui/flatpak_row.blp:63
 msgid "Uninstall flatpak"
-msgstr ""
+msgstr "flatpak をアンインストール"
 
 #: data/ui/flatpak_search.blp:16
 msgid "Search Flatpaks"
-msgstr ""
+msgstr "Flatpak を検索"
 
 #: data/ui/flatpak_search.blp:41
 msgid "Install"
-msgstr ""
+msgstr "インストール"
 
 #: data/ui/flatpak_search.blp:89
 msgid "Install location"
-msgstr ""
+msgstr "インストール場所"
 
 #: data/ui/flatpak_search.blp:111
 msgid "Active Remotes: "
-msgstr ""
+msgstr "有効なリモート: "
 
 #: data/ui/package_info.blp:24
 msgid "Advisory ID"
-msgstr ""
+msgstr "アドバイザリ ID"
 
 #: data/ui/package_info.blp:37
 msgid "Advisory Type"
-msgstr ""
+msgstr "アドバイザリタイプ"
 
 #: data/ui/package_info.blp:50
 msgid "Advisory Issued"
-msgstr ""
+msgstr "アドバイザリ発行日"
 
 #: data/ui/package_info.blp:75
 msgid "Bugzilla References"
-msgstr ""
+msgstr "Bugzilla リファレンス"
 
 #: data/ui/package_settings.blp:13
 msgid "Package filter"
-msgstr ""
+msgstr "パッケージフィルター"
 
 #: data/ui/package_settings.blp:19
 msgid "Installed"
-msgstr ""
+msgstr "インストール済み"
 
 #: data/ui/package_settings.blp:37
 msgid "Updates"
-msgstr ""
+msgstr "更新"
 
 #: data/ui/package_settings.blp:54
 msgid "All"
-msgstr ""
+msgstr "すべて"
 
 #: data/ui/package_settings.blp:72 data/ui/window.blp:35
 msgid "Search"
-msgstr ""
+msgstr "検索"
 
 #: data/ui/package_settings.blp:91
 msgid "View Settings"
-msgstr ""
+msgstr "表示設定"
 
 #: data/ui/package_settings.blp:108
 msgid "Select what attribute to sort by"
-msgstr ""
+msgstr "ソート基準の属性を選択"
 
 #: data/ui/package_settings.blp:124
 msgid "Select what package information to show"
-msgstr ""
+msgstr "表示するパッケージ情報を選択"
 
 #: data/ui/package_settings.blp:132 data/ui/package_view.blp:20
 msgid "Name"
-msgstr ""
+msgstr "名前"
 
 #: data/ui/package_settings.blp:133
 msgid "Arch"
-msgstr ""
+msgstr "アーキテクチャ"
 
 #: data/ui/package_settings.blp:134 data/ui/package_view.blp:41
 msgid "Size"
-msgstr ""
+msgstr "サイズ"
 
 #: data/ui/package_settings.blp:135
 msgid "Repo"
-msgstr ""
+msgstr "リポジトリ"
 
 #: data/ui/package_settings.blp:141
 msgid "Description"
-msgstr ""
+msgstr "説明"
 
 #: data/ui/package_settings.blp:142
 msgid "Filelist"
-msgstr ""
+msgstr "ファイル一覧"
 
 #: data/ui/package_settings.blp:143
 msgid "Update Info"
-msgstr ""
+msgstr "更新情報"
 
 #: data/ui/package_settings.blp:144
 msgid "Provides"
-msgstr ""
+msgstr "提供"
 
 #: data/ui/package_settings.blp:145
 msgid "Requires"
-msgstr ""
+msgstr "要件"
 
 #: data/ui/package_settings.blp:146
 msgid "Changelog"
-msgstr ""
+msgstr "変更履歴"
 
 #: data/ui/package_view.blp:27
 msgid "Version"
-msgstr ""
+msgstr "バージョン"
 
 #: data/ui/package_view.blp:34
 msgid "Arch."
-msgstr ""
+msgstr "アーキテクチャ"
 
 #: data/ui/package_view.blp:48
 msgid "Summary"
-msgstr ""
+msgstr "概要"
 
 #: data/ui/package_view.blp:55 data/ui/preferences.blp:118
 msgid "Repository"
-msgstr ""
+msgstr "リポジトリ"
 
 #: data/ui/preferences.blp:5 data/ui/shortcuts-dialog.blp:14
 msgid "Preferences"
-msgstr ""
+msgstr "設定"
 
 #: data/ui/preferences.blp:10 data/ui/search_settings.blp:10
 msgid "Settings"
-msgstr ""
+msgstr "設定"
 
 #: data/ui/preferences.blp:14
 msgid "Flatpak Settings"
-msgstr ""
+msgstr "Flatpak 設定"
 
 #: data/ui/preferences.blp:17
 msgid "Default Location"
-msgstr ""
+msgstr "デフォルトの場所"
 
 #: data/ui/preferences.blp:23
 msgid "Default Remote"
-msgstr ""
+msgstr "デフォルトのリモート"
 
 #: data/ui/preferences.blp:29
 msgid "Metadata Settings"
-msgstr ""
+msgstr "メタデータ設定"
 
 #: data/ui/preferences.blp:32
 msgid "Min. Refresh interval (minutes)"
-msgstr ""
+msgstr "最小更新間隔 (分)"
 
 #: data/ui/preferences.blp:47
 msgid "Updater Settings"
-msgstr ""
+msgstr "アップデーター設定"
 
 #: data/ui/preferences.blp:50
 msgid "Custom System Updater (path)"
-msgstr ""
+msgstr "カスタムシステムアップデーター (パス)"
 
 #: data/ui/preferences.blp:65
 msgid "Check updates interval (minutes)"
-msgstr ""
+msgstr "更新確認間隔 (分)"
 
 #: data/ui/preferences.blp:79
 msgid "Show systray icon on updates"
-msgstr ""
+msgstr "更新時にシステムトレイアイコンを表示"
 
 #: data/ui/preferences.blp:91
 msgid "Use dark systray icon"
-msgstr ""
+msgstr "ダークシステムトレイアイコンを使用"
 
 #: data/ui/preferences.blp:104
 msgid "Send Notification on updates"
-msgstr ""
+msgstr "更新時に通知を送信"
 
 #: data/ui/preferences.blp:122
 msgid "Repository Settings"
-msgstr ""
+msgstr "リポジトリ設定"
 
 #: data/ui/preferences.blp:123
 msgid "The available and enabled repositories"
-msgstr ""
+msgstr "利用可能で有効なリポジトリ"
 
 #: data/ui/preferences.blp:126
 msgid "Show Source/Debug Repositories"
-msgstr ""
+msgstr "ソース/デバッグリポジトリを表示"
 
 #: data/ui/queue_row.blp:21
 msgid "Added as a dependency"
-msgstr ""
+msgstr "依存関係として追加されました"
 
 #: data/ui/queue_row.blp:47
 msgid "Remove item from queue"
-msgstr ""
+msgstr "キューからアイテムを削除"
 
 #: data/ui/search_settings.blp:5 data/ui/search_settings.blp:14
 msgid "Search Settings"
-msgstr ""
+msgstr "検索設定"
 
 #: data/ui/search_settings.blp:20
 msgid "Clear the repository keywords"
-msgstr ""
+msgstr "リポジトリキーワードをクリア"
 
 #: data/ui/search_settings.blp:32
 msgid "Repository keywords (blank = show all)"
-msgstr ""
+msgstr "リポジトリキーワード (空白 = すべて表示)"
 
 #: data/ui/search_settings.blp:33
 msgid ""
 "Comma separated keywords to match against enabled repositories\n"
 " Ex. 'fed' will match 'fedora'"
 msgstr ""
+"有効なリポジトリとマッチさせるカンマ区切りのキーワード\n"
+" 例: 'fed' は 'fedora' にマッチします"
 
 #: data/ui/search_settings.blp:40
 msgid "Number of package versions"
-msgstr ""
+msgstr "パッケージバージョン数"
 
 #: data/ui/search_settings.blp:41
 msgid "Number of packaage versions to show in search results"
-msgstr ""
+msgstr "検索結果に表示するパッケージバージョン数"
 
 #: data/ui/search_settings.blp:55
 msgid "Search in filesystem"
-msgstr ""
+msgstr "ファイルシステム内を検索"
 
 #: data/ui/search_settings.blp:56
 msgid "Search in containing files"
-msgstr ""
+msgstr "含まれるファイルを検索"
 
 #: data/ui/search_settings.blp:61
 msgid "Search in provides"
-msgstr ""
+msgstr "提供を検索"
 
 #: data/ui/search_settings.blp:62
 msgid "Search in package provides"
-msgstr ""
+msgstr "パッケージの提供を検索"
 
 #: data/ui/search_settings.blp:67
 msgid "Search in binaries"
-msgstr ""
+msgstr "バイナリを検索"
 
 #: data/ui/search_settings.blp:68
 msgid "Search in package binaries"
-msgstr ""
+msgstr "パッケージのバイナリを検索"
 
 #: data/ui/search_settings.blp:73
 msgid "Filter on archs"
-msgstr ""
+msgstr "アーキテクチャでフィルター"
 
 #: data/ui/search_settings.blp:74
 msgid "Filter on package architectures"
-msgstr ""
+msgstr "パッケージアーキテクチャでフィルター"
 
 #: data/ui/search_settings.blp:80
 msgid "Search scope"
-msgstr ""
+msgstr "検索範囲"
 
 #: data/ui/search_settings.blp:81
 msgid "Filter on installation status"
-msgstr ""
+msgstr "インストール状態でフィルター"
 
 #: data/ui/shortcuts-dialog.blp:6
 msgid "General"
-msgstr ""
+msgstr "一般"
 
 #: data/ui/shortcuts-dialog.blp:9
 msgid "Keyboard shortcuts"
-msgstr ""
+msgstr "キーボードショートカット"
 
 #: data/ui/shortcuts-dialog.blp:19
 msgid "Apply Actions/Confirm"
-msgstr ""
+msgstr "アクションの適用/確認"
 
 #: data/ui/shortcuts-dialog.blp:24
 msgid "Close Dialog/Cancel"
-msgstr ""
+msgstr "ダイアログを閉じる/キャンセル"
 
 #: data/ui/shortcuts-dialog.blp:30
 msgid "Select Packages"
-msgstr ""
+msgstr "パッケージを選択"
 
 #: data/ui/shortcuts-dialog.blp:35
 msgid "Select Flatpaks"
-msgstr ""
+msgstr "Flatpak を選択"
 
 #: data/ui/shortcuts-dialog.blp:40
 msgid "Select Queue"
-msgstr ""
+msgstr "キューを選択"
 
 #: data/ui/shortcuts-dialog.blp:46
 msgid "Package View"
-msgstr ""
+msgstr "パッケージビュー"
 
 #: data/ui/shortcuts-dialog.blp:49
 msgid "Show/Hide Sidebar"
-msgstr ""
+msgstr "サイドバーの表示/非表示"
 
 #: data/ui/shortcuts-dialog.blp:54
 msgid "Toggled queued"
-msgstr ""
+msgstr "キュー登録を切り替え"
 
 #: data/ui/shortcuts-dialog.blp:59 data/ui/window.blp:329
 msgid "Select All"
-msgstr ""
+msgstr "すべて選択"
 
 #: data/ui/shortcuts-dialog.blp:64 data/ui/window.blp:334
 msgid "Deselect All"
-msgstr ""
+msgstr "すべて選択解除"
 
 #: data/ui/shortcuts-dialog.blp:69
 msgid "Toggle Searchbar"
-msgstr ""
+msgstr "検索バーの切り替え"
 
 #: data/ui/shortcuts-dialog.blp:74
 msgid "Search Options"
-msgstr ""
+msgstr "検索オプション"
 
 #: data/ui/shortcuts-dialog.blp:80
 msgid "Package Filters"
-msgstr ""
+msgstr "パッケージフィルター"
 
 #: data/ui/shortcuts-dialog.blp:83
 msgid "Show Installed"
-msgstr ""
+msgstr "インストール済みを表示"
 
 #: data/ui/shortcuts-dialog.blp:88
 msgid "Show updates"
-msgstr ""
+msgstr "更新を表示"
 
 #: data/ui/shortcuts-dialog.blp:93
 msgid "Show All"
-msgstr ""
+msgstr "すべて表示"
 
 #: data/ui/shortcuts-dialog.blp:99
 msgid "Queue View"
-msgstr ""
+msgstr "キュービュー"
 
 #: data/ui/shortcuts-dialog.blp:102
 msgid "Clear Queue"
-msgstr ""
+msgstr "キューをクリア"
 
 #: data/ui/shortcuts-dialog.blp:108
 msgid "Flatpak View"
-msgstr ""
+msgstr "Flatpak ビュー"
 
 #: data/ui/shortcuts-dialog.blp:111
 msgid "Search for flatpaks to install"
-msgstr ""
+msgstr "インストールする flatpak を検索"
 
 #: data/ui/shortcuts-dialog.blp:116
 msgid "Remove selected flatpak"
-msgstr ""
+msgstr "選択した flatpak を削除"
 
 #: data/ui/window.blp:5 data/dk.yumex.Yumex.desktop.in.in:2
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:7
 msgid "Yum Extender"
-msgstr ""
+msgstr "Yum Extender"
 
 #: data/ui/window.blp:29
 msgid "Select Package filters"
-msgstr ""
+msgstr "パッケージフィルターを選択"
 
 #: data/ui/window.blp:48
 msgid "Package Action Menu"
-msgstr ""
+msgstr "パッケージアクションメニュー"
 
 #: data/ui/window.blp:61
 msgid "Main Menu"
-msgstr ""
+msgstr "メインメニュー"
 
 #: data/ui/window.blp:75
 msgid "Apply"
-msgstr ""
+msgstr "適用"
 
 #: data/ui/window.blp:79
 msgid "Apply Package Actions"
-msgstr ""
+msgstr "パッケージアクションを適用"
 
 #: data/ui/window.blp:98
 msgid "Package Name"
-msgstr ""
+msgstr "パッケージ名"
 
 #: data/ui/window.blp:123
 msgid "Packages"
-msgstr ""
+msgstr "パッケージ"
 
 #: data/ui/window.blp:170
 msgid "Flatpaks"
-msgstr ""
+msgstr "Flatpak"
 
 #: data/ui/window.blp:194
 msgid "Update All Flatpaks (Apps & Runtimes)"
-msgstr ""
+msgstr "すべての Flatpak を更新 (アプリ & ランタイム)"
 
 #: data/ui/window.blp:200
 msgid "search for new flatpak to install"
-msgstr ""
+msgstr "インストールする新しい flatpak を検索"
 
 #: data/ui/window.blp:206
 msgid "uninstall selected flatpak"
-msgstr ""
+msgstr "選択した flatpak をアンインストール"
 
 #: data/ui/window.blp:212
 msgid "Remove unused flatpaks (runtimes etc.)"
-msgstr ""
+msgstr "未使用の flatpak を削除 (ランタイム等)"
 
 #: data/ui/window.blp:224
 msgid "show/hide runtimes"
-msgstr ""
+msgstr "ランタイムの表示/非表示"
 
 #: data/ui/window.blp:234
 msgid "Groups"
-msgstr ""
+msgstr "グループ"
 
 #: data/ui/window.blp:245
 msgid "Queue"
-msgstr ""
+msgstr "キュー"
 
 #: data/ui/window.blp:271
 msgid "Remove all from queue"
-msgstr ""
+msgstr "キューからすべて削除"
 
 #: data/ui/window.blp:288
 msgid "_Preferences"
-msgstr ""
+msgstr "設定(_P)"
 
 #: data/ui/window.blp:298
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "キーボードショートカット"
 
 #: data/ui/window.blp:303
 msgid "_About Yum Extender"
-msgstr ""
+msgstr "Yum Extender について(_A)"
 
 #: data/ui/window.blp:312
 msgid "_Downgrade"
-msgstr ""
+msgstr "ダウングレード(_D)"
 
 #: data/ui/window.blp:317
 msgid "_Reinstall"
-msgstr ""
+msgstr "再インストール(_R)"
 
 #: data/ui/window.blp:322
 msgid "_Distro Sync"
-msgstr ""
+msgstr "Distro Sync(_D)"
 
 #: data/ui/error_dialog.blp:16 data/ui/error_dialog.blp:44
 msgid "Yum Extender Error"
-msgstr ""
+msgstr "Yum Extender エラー"
 
 #: data/ui/error_dialog.blp:22
 msgid "Copy error to clipboard"
-msgstr ""
+msgstr "エラーをクリップボードにコピー"
 
 #: data/ui/transaction_result.blp:16
 msgid "Transaction Result"
-msgstr ""
+msgstr "トランザクション結果"
 
 #: data/ui/transaction_result.blp:64
 msgid "dnf5daemon-server is updated, consider using offline transaction"
-msgstr ""
+msgstr "dnf5daemon-server が更新されます。オフライントランザクションの使用を検討してください"
 
 #: data/ui/transaction_result.blp:65
 msgid ""
@@ -816,221 +818,224 @@ msgid ""
 "Updating the dnfdaemon-server will restart the service.\n"
 " This can cause an error in Yum Extender"
 msgstr ""
+"dnf5daemon-server がトランザクションをシステムに適用しています。\n"
+"dnfdaemon-server を更新するとサービスが再起動します。\n"
+"これにより Yum Extender でエラーが発生する可能性があります"
 
 #: data/ui/transaction_result.blp:101
 msgid "Problems in Transaction"
-msgstr ""
+msgstr "トランザクションに問題があります"
 
 #: data/ui/transaction_result.blp:112
 msgid "Copy to clipboard"
-msgstr ""
+msgstr "クリップボードにコピー"
 
 #: data/ui/transaction_result.blp:148
 msgid "Install Size"
-msgstr ""
+msgstr "インストールサイズ"
 
 #: data/ui/transaction_result.blp:153
 msgid "Offline Transaction"
-msgstr ""
+msgstr "オフライントランザクション"
 
 #: data/ui/transaction_result.blp:154
 msgid "This transaction will be performed offline during reboot"
-msgstr ""
+msgstr "このトランザクションは再起動中にオフラインで実行されます"
 
 #: data/dk.yumex.Yumex-flatpakref.desktop.in.in:2
 msgid "Yum Extender Flatpak Installer"
-msgstr ""
+msgstr "Yum Extender Flatpak インストーラー"
 
 #: data/dk.yumex.Yumex-flatpakref.desktop.in.in:3
 msgid "Install flatpak defined in .flatpakref"
-msgstr ""
+msgstr ".flatpakref で定義された flatpak をインストール"
 
 #: data/dk.yumex.Yumex-flatpakref.desktop.in.in:10
 #: data/dk.yumex.Yumex-rpm.desktop.in.in:10
 #: data/dk.yumex.Yumex.desktop.in.in:10
 msgid "Software Installer"
-msgstr ""
+msgstr "ソフトウェアインストーラー"
 
 #: data/dk.yumex.Yumex-rpm.desktop.in.in:2
 msgid "Yum Extender RPM Installer"
-msgstr ""
+msgstr "Yum Extender RPM インストーラー"
 
 #: data/dk.yumex.Yumex-rpm.desktop.in.in:3
 msgid "Install a .rpm file"
-msgstr ""
+msgstr ".rpm ファイルをインストール"
 
 #: data/dk.yumex.Yumex.desktop.in.in:3
 msgid "Install, update and remove applications"
-msgstr ""
+msgstr "アプリケーションのインストール、更新、削除"
 
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:8
 msgid "Graphical package manager"
-msgstr ""
+msgstr "グラフィカルパッケージマネージャー"
 
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:9
 msgid "Tim Lauridsen"
-msgstr ""
+msgstr "Tim Lauridsen"
 
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:13
 msgid ""
 "Yum Extender is a graphical package management application. It allows you to"
 " search and browse for packages to install, remove and update on your "
 "computer."
-msgstr ""
+msgstr "Yum Extender はグラフィカルなパッケージ管理アプリケーションです。コンピューター上のパッケージを検索、参照し、インストール、削除、更新することができます。"
 
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:18
 msgid ""
 "It is designed to give you full control over the packages on your computer "
 "and to be used by all users."
-msgstr ""
+msgstr "コンピューター上のパッケージを完全に制御できるように設計されており、すべてのユーザーが使用できます。"
 
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:20
 msgid "Features:"
-msgstr ""
+msgstr "特徴:"
 
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:22
 msgid "Browse packages available for installation or update"
-msgstr ""
+msgstr "インストールまたは更新可能なパッケージを参照"
 
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:23
 msgid "Browse packages installed on your computer"
-msgstr ""
+msgstr "コンピューターにインストールされているパッケージを参照"
 
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:24
 msgid "Search packages by name, summary, description"
-msgstr ""
+msgstr "名前、概要、説明でパッケージを検索"
 
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:25
 msgid "Browse Installed flatpaks"
-msgstr ""
+msgstr "インストール済み flatpak を参照"
 
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:26
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:118
 msgid "Install, remove and update flatpaks"
-msgstr ""
+msgstr "flatpak のインストール、削除、更新"
 
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:44
 msgid "Yum Extender 5.4.0 add many fixes and improvments"
-msgstr ""
+msgstr "Yum Extender 5.4.0 では多くの修正と改善が追加されました"
 
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:46
 msgid "Added support for offline transaction during boot"
-msgstr ""
+msgstr "起動中のオフライントランザクションのサポートを追加"
 
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:47
 msgid "Added support of reinstall, downgrade,distro-sync"
-msgstr ""
+msgstr "再インストール、ダウングレード、distro-sync のサポートを追加"
 
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:48
 msgid "Added support for system upgrade to next Fedora release"
-msgstr ""
+msgstr "次の Fedora リリースへのシステムアップグレードのサポートを追加"
 
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:49
 msgid "Added support for installing .rpm files from file manager"
-msgstr ""
+msgstr "ファイルマネージャーからの .rpm ファイルのインストールサポートを追加"
 
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:55
 msgid "Yum Extender 5.2.0 add many fixes and improvments"
-msgstr ""
+msgstr "Yum Extender 5.2.0 では多くの修正と改善が追加されました"
 
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:57
 msgid "Use only dnf5daemon for all package actions"
-msgstr ""
+msgstr "すべてのパッケージアクションに dnf5daemon のみを使用"
 
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:63
 msgid "Yum Extender 5.0.3 add many fixes and improvments"
-msgstr ""
+msgstr "Yum Extender 5.0.3 では多くの修正と改善が追加されました"
 
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:68
 msgid "Yum Extender 5.0.2 add many fixes and improvments"
-msgstr ""
+msgstr "Yum Extender 5.0.2 では多くの修正と改善が追加されました"
 
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:70
 msgid "Added support for notifications on updates"
-msgstr ""
+msgstr "更新の通知サポートを追加"
 
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:71
 msgid "Improved configuration of yumex-updater in yumex ui"
-msgstr ""
+msgstr "yumex UI での yumex-updater の設定を改善"
 
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:77
 msgid "Yum Extender 5.0.1 add many fixes and small improvments"
-msgstr ""
+msgstr "Yum Extender 5.0.1 では多くの修正と小さな改善が追加されました"
 
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:79
 msgid "Add yumex-updater systray application there checks for updates"
-msgstr ""
+msgstr "更新をチェックする yumex-updater システムトレイアプリケーションを追加"
 
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:85
 msgid "Yum Extender 5.0.0 add many fixes and small improvments"
-msgstr ""
+msgstr "Yum Extender 5.0.0 では多くの修正と小さな改善が追加されました"
 
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:87
 msgid "Support for update info with dnf5"
-msgstr ""
+msgstr "dnf5 での更新情報のサポート"
 
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:88
 msgid "new improved flatpak installer"
-msgstr ""
+msgstr "新しく改良された flatpak インストーラー"
 
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:89
 msgid "cleanup unused flatpaks"
-msgstr ""
+msgstr "未使用の flatpak のクリーンアップ"
 
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:90
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:100
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:109
 msgid "lot of code fixes and optimization"
-msgstr ""
+msgstr "多くのコード修正と最適化"
 
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:96
 msgid "Yum Extender 4.9.4 add many fixes and small improvments"
-msgstr ""
+msgstr "Yum Extender 4.9.4 では多くの修正と小さな改善が追加されました"
 
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:98
 msgid "Support for importing gpg keys from repositories"
-msgstr ""
+msgstr "リポジトリからの GPG キーのインポートサポート"
 
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:99
 msgid "fix installing and updating flatpaks at system location"
-msgstr ""
+msgstr "システムロケーションでの flatpak のインストールと更新を修正"
 
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:106
 msgid "Yum Extender 4.9.3 improve the flatpak installer"
-msgstr ""
+msgstr "Yum Extender 4.9.3 では flatpak インストーラーが改善されました"
 
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:108
 msgid "flatpak install with search and select available results"
-msgstr ""
+msgstr "検索して利用可能な結果を選択する flatpak インストール"
 
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:115
 msgid "Yum Extender 4.9.2 adds support for flatpaks"
-msgstr ""
+msgstr "Yum Extender 4.9.2 では flatpak のサポートが追加されました"
 
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:117
 msgid "Browse installed flatpaks"
-msgstr ""
+msgstr "インストール済み flatpak を参照"
 
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:124
 msgid "Yum Extender 4.9.1 is a total rewrite using a modern toolchain"
-msgstr ""
+msgstr "Yum Extender 4.9.1 はモダンなツールチェーンを使用した完全な書き直しです"
 
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:126
 msgid "New fresh scalable UI using Gtk4 and Libadwaita"
-msgstr ""
+msgstr "Gtk4 と Libadwaita を使用した新しくスケーラブルな UI"
 
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:127
 msgid "Using dnf directly for readonly actions"
-msgstr ""
+msgstr "読み取り専用アクションに dnf を直接使用"
 
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:140
 msgid "yumex"
-msgstr ""
+msgstr "yumex"
 
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:141
 msgid "yumex-dnf"
-msgstr ""
+msgstr "yumex-dnf"
 
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:142
 msgid "Package Manager"
-msgstr ""
+msgstr "パッケージマネージャー"

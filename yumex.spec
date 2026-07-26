@@ -1,9 +1,9 @@
 %global app_id dk.yumex.Yumex
-%global app_build release
+%global app_build debug
 
 Name:     yumex
 Version:  5.5.0
-Release:  %autorelease
+Release:  %autorelease -p -s git20260422
 Summary:  Yum Extender graphical package management tool
 
 Group:    Applications/System
