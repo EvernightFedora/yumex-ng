@@ -2,25 +2,21 @@
 # Copyright (C) 2026 Tim Lauridsen
 # This file is distributed under the GNU GPLv3 license.
 # Tim Lauridsen, 2026.
-# 
-# Translators:
-# Tim Lauridsen <tla@rasmil.dk>, 2025
-# Wenyin Root <ruojiner@hotmail.com>, 2026
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-06 06:52+0100\n"
-"PO-Revision-Date: 2022-12-02 12:11+0000\n"
-"Last-Translator: Wenyin Root <ruojiner@hotmail.com>, 2026\n"
-"Language-Team: Chinese (China) (https://app.transifex.com/timlau/teams/16939/zh_CN/)\n"
+"PO-Revision-Date: 2026-07-26 22:20+0800\n"
+"Last-Translator: \n"
+"Language-Team: KairikiFedora Software Translate <13278297951@sina.cn>\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: zh_CN\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.9\n"
 
 #: yumex/backend/dnf5daemon/__init__.py:75
 #: yumex/backend/flatpak/transaction.py:65 yumex/ui/flatpak_result.py:37
@@ -41,7 +37,7 @@ msgstr "正在重新安装"
 
 #: yumex/backend/dnf5daemon/__init__.py:83
 msgid "Removing"
-msgstr "正在卸载"
+msgstr "正在移除"
 
 #: yumex/backend/dnf5daemon/__init__.py:85
 msgid "Replacing"
@@ -50,26 +46,26 @@ msgstr "正在替换"
 #: yumex/backend/dnf5daemon/__init__.py:327
 #: yumex/backend/dnf5daemon/__init__.py:347 yumex/ui/window.py:221
 msgid "Building Transaction"
-msgstr "正在构建操作"
+msgstr "正在构建事务"
 
 #: yumex/backend/dnf5daemon/__init__.py:369
 #: yumex/backend/dnf5daemon/__init__.py:478 yumex/ui/window.py:245
 msgid "Building Offline Transaction"
-msgstr "正在构建离线操作"
+msgstr "正在构建离线事务"
 
 #: yumex/backend/dnf5daemon/__init__.py:371
 #: yumex/backend/dnf5daemon/__init__.py:390
 #: yumex/backend/dnf5daemon/__init__.py:480
 msgid "Applying Transaction"
-msgstr "正在应用操作"
+msgstr "正在应用事务"
 
 #: yumex/backend/dnf5daemon/__init__.py:379
 msgid "Verifying Packages"
-msgstr "正在验证软件包"
+msgstr "正在校验软件包"
 
 #: yumex/backend/dnf5daemon/__init__.py:395
 msgid "Running Scriptlets"
-msgstr "正在运行脚本"
+msgstr "正在运行脚本片段"
 
 #: yumex/backend/dnf5daemon/__init__.py:433
 msgid "Download Packages"
@@ -89,7 +85,7 @@ msgstr "正在更新"
 
 #: yumex/backend/flatpak/transaction.py:181
 msgid "flatpak transaction failed"
-msgstr "Flatpak 操作失败"
+msgstr "flatpak 事务失败"
 
 #: yumex/ui/__init__.py:44
 msgid "Queued for deletion"
@@ -121,7 +117,7 @@ msgstr "正在加载软件包"
 
 #: yumex/ui/package_view.py:97
 msgid "This may take a little while"
-msgstr "这可能需要一点时间"
+msgstr "这可能需要一些时间"
 
 #: yumex/ui/flatpak_view.py:90
 msgid "Flatpaks were updated"
@@ -129,11 +125,11 @@ msgstr "Flatpak 已更新"
 
 #: yumex/ui/flatpak_view.py:96
 msgid "Unused flatpaks were removed"
-msgstr "已移除未使用的 Flatpak"
+msgstr "未使用的 flatpak 已移除"
 
 #: yumex/ui/package_info.py:26
 msgid "Bugfix"
-msgstr "修复错误"
+msgstr "错误修复"
 
 #: yumex/ui/package_info.py:27
 msgid "New Package"
@@ -141,11 +137,11 @@ msgstr "新软件包"
 
 #: yumex/ui/package_info.py:28
 msgid "Security"
-msgstr "安全"
+msgstr "安全更新"
 
 #: yumex/ui/package_info.py:29
 msgid "Enhancement"
-msgstr "增强"
+msgstr "增强功能"
 
 #: yumex/ui/package_info.py:61
 msgid "no update information found"
@@ -181,57 +177,56 @@ msgstr "在 flathub.org 上打开"
 
 #: yumex/ui/window.py:202 yumex/ui/window.py:338
 msgid "Transaction completed succesfully"
-msgstr "操作成功完成"
+msgstr "事务已成功完成"
 
 #: yumex/ui/window.py:236
 msgid "Nothing to do in this transaction"
-msgstr "此操作中没有要执行的操作"
+msgstr "此事务中无任何操作"
 
 #: yumex/ui/window.py:247
 msgid "Running Transaction"
-msgstr "正在运行操作"
+msgstr "正在执行事务"
 
 #: yumex/ui/window.py:277
 msgid "Running Flatpak Transaction"
-msgstr "正在运行 Flatpak 操作"
+msgstr "正在执行 Flatpak 事务"
 
 #: yumex/ui/window.py:522
 msgid "Offline transaction"
-msgstr "离线操作"
+msgstr "离线事务"
 
 #: yumex/ui/window.py:523
 msgid ""
-"Do you want to prepare the offline transaction to be applied on next reboot "
-"?"
-msgstr "是否要准备在下次重启时应用离线操作？"
+"Do you want to prepare the offline transaction to be applied on next reboot ?"
+msgstr "您想准备离线事务以便在下次重启时应用吗？"
 
 #: yumex/ui/window.py:529
 msgid "Offline trasaction prepared to be applied on next reboot"
-msgstr "离线操作已准备好在下次重启时应用"
+msgstr "离线事务已准备就绪，将在下次重启时应用"
 
 #: yumex/ui/window.py:532
 msgid "Offline transaction prepare failed"
-msgstr "离线操作准备失败"
+msgstr "离线事务准备失败"
 
 #: yumex/ui/window.py:550
 msgid "system upgrade target release must to larger than current release"
-msgstr "系统升级目标版本必须大于当前版本"
+msgstr "系统升级的目标版本必须高于当前版本"
 
 #: yumex/ui/window.py:559
 msgid "Offline Transaction completed succesfully"
-msgstr "离线操作成功完成"
+msgstr "离线事务已成功完成"
 
 #: yumex/ui/window.py:571
 msgid "Distro-Sync completed succesfully"
-msgstr "发行版同步成功完成"
+msgstr "发行版同步已成功完成"
 
 #: yumex/ui/window.py:580
 msgid "Offline transaction cancelled"
-msgstr "离线操作已取消"
+msgstr "离线事务已取消"
 
 #: yumex/ui/window.py:583
 msgid "Offline transaction cancel failed"
-msgstr "离线操作取消失败"
+msgstr "取消离线事务失败"
 
 #: yumex/ui/transaction_result.py:125
 msgid "Packages for installation"
@@ -264,11 +259,11 @@ msgstr "待发行版同步的软件包"
 #: yumex/main.py:181
 msgid ""
 "Yum Extender is a Package management to install, update and remove packages"
-msgstr "Yum Extender 是一个用于安装、更新和删除软件包的包管理工具"
+msgstr "Yum Extender 是一款用于安装、更新和移除软件包的软件包管理器"
 
 #: yumex/main.py:184
 msgid "Special thanks to"
-msgstr "特别感谢"
+msgstr "特别鸣谢"
 
 #: yumex/main.py:215 yumex/main.py:222
 msgid "dnf5daemon-server Error"
@@ -309,23 +304,23 @@ msgstr "Fedora 版本"
 
 #: data/ui/advanced_actions.blp:49
 msgid "Run System Upgrade"
-msgstr "运行系统升级"
+msgstr "执行系统升级"
 
 #: data/ui/advanced_actions.blp:51
 msgid "Upgrade system to next release (offline)."
-msgstr "将系统升级到下一个版本（离线）。"
+msgstr "升级系统到下一个版本（离线）。"
 
 #: data/ui/advanced_actions.blp:56
 msgid "Offline Transaction  is available"
-msgstr "离线操作可用"
+msgstr "离线事务可用"
 
 #: data/ui/advanced_actions.blp:61
 msgid "Cancel Transaction"
-msgstr "取消操作"
+msgstr "取消事务"
 
 #: data/ui/advanced_actions.blp:63
 msgid "Cancel and clear offline transaction."
-msgstr "取消并清除离线操作。"
+msgstr "取消并清除离线事务。"
 
 #: data/ui/advanced_actions.blp:71
 msgid "Apply on Reboot"
@@ -333,11 +328,11 @@ msgstr "重启时应用"
 
 #: data/ui/advanced_actions.blp:73
 msgid "Prepare transaction for apply on next boot."
-msgstr "准备在下次启动时应用的操作。"
+msgstr "准备事务以便在下次启动时应用。"
 
 #: data/ui/flatpak_result.blp:16
 msgid "Flatpak Transaction Result"
-msgstr "Flatpak 操作结果"
+msgstr "Flatpak 事务结果"
 
 #: data/ui/flatpak_result.blp:21 data/ui/flatpak_search.blp:21
 #: data/ui/transaction_result.blp:21
@@ -354,7 +349,7 @@ msgstr "有可用更新"
 
 #: data/ui/flatpak_row.blp:63
 msgid "Uninstall flatpak"
-msgstr "卸载 Flatpak"
+msgstr "卸载 flatpak"
 
 #: data/ui/flatpak_search.blp:16
 msgid "Search Flatpaks"
@@ -370,7 +365,7 @@ msgstr "安装位置"
 
 #: data/ui/flatpak_search.blp:111
 msgid "Active Remotes: "
-msgstr "激活的远程源："
+msgstr "活动远程仓库："
 
 #: data/ui/package_info.blp:24
 msgid "Advisory ID"
@@ -382,11 +377,11 @@ msgstr "公告类型"
 
 #: data/ui/package_info.blp:50
 msgid "Advisory Issued"
-msgstr "公告发布"
+msgstr "公告发布日期"
 
 #: data/ui/package_info.blp:75
 msgid "Bugzilla References"
-msgstr "Bugzilla 参考"
+msgstr "Bugzilla 引用"
 
 #: data/ui/package_settings.blp:13
 msgid "Package filter"
@@ -410,11 +405,11 @@ msgstr "搜索"
 
 #: data/ui/package_settings.blp:91
 msgid "View Settings"
-msgstr "查看设置"
+msgstr "视图设置"
 
 #: data/ui/package_settings.blp:108
 msgid "Select what attribute to sort by"
-msgstr "选择排序属性"
+msgstr "选择排序依据的属性"
 
 #: data/ui/package_settings.blp:124
 msgid "Select what package information to show"
@@ -454,11 +449,11 @@ msgstr "提供"
 
 #: data/ui/package_settings.blp:145
 msgid "Requires"
-msgstr "需要"
+msgstr "需求"
 
 #: data/ui/package_settings.blp:146
 msgid "Changelog"
-msgstr "更新日志"
+msgstr "变更日志"
 
 #: data/ui/package_view.blp:27
 msgid "Version"
@@ -466,7 +461,7 @@ msgstr "版本"
 
 #: data/ui/package_view.blp:34
 msgid "Arch."
-msgstr "CPU架构"
+msgstr "架构"
 
 #: data/ui/package_view.blp:48
 msgid "Summary"
@@ -478,7 +473,7 @@ msgstr "仓库"
 
 #: data/ui/preferences.blp:5 data/ui/shortcuts-dialog.blp:14
 msgid "Preferences"
-msgstr "选项"
+msgstr "首选项"
 
 #: data/ui/preferences.blp:10 data/ui/search_settings.blp:10
 msgid "Settings"
@@ -494,7 +489,7 @@ msgstr "默认位置"
 
 #: data/ui/preferences.blp:23
 msgid "Default Remote"
-msgstr "默认远程源"
+msgstr "默认远程仓库"
 
 #: data/ui/preferences.blp:29
 msgid "Metadata Settings"
@@ -522,7 +517,7 @@ msgstr "有更新时显示系统托盘图标"
 
 #: data/ui/preferences.blp:91
 msgid "Use dark systray icon"
-msgstr "使用暗色系统托盘图标"
+msgstr "使用深色系统托盘图标"
 
 #: data/ui/preferences.blp:104
 msgid "Send Notification on updates"
@@ -534,11 +529,11 @@ msgstr "仓库设置"
 
 #: data/ui/preferences.blp:123
 msgid "The available and enabled repositories"
-msgstr "可用和已启用的仓库"
+msgstr "可用且已启用的仓库"
 
 #: data/ui/preferences.blp:126
 msgid "Show Source/Debug Repositories"
-msgstr "显示源码/调试仓库"
+msgstr "显示源代码/调试仓库"
 
 #: data/ui/queue_row.blp:21
 msgid "Added as a dependency"
@@ -546,7 +541,7 @@ msgstr "作为依赖项添加"
 
 #: data/ui/queue_row.blp:47
 msgid "Remove item from queue"
-msgstr "从队列中移除项目"
+msgstr "从队列中移除此项目"
 
 #: data/ui/search_settings.blp:5 data/ui/search_settings.blp:14
 msgid "Search Settings"
@@ -554,19 +549,19 @@ msgstr "搜索设置"
 
 #: data/ui/search_settings.blp:20
 msgid "Clear the repository keywords"
-msgstr "清除仓库关键词"
+msgstr "清除仓库关键字"
 
 #: data/ui/search_settings.blp:32
 msgid "Repository keywords (blank = show all)"
-msgstr "仓库关键词（空白 = 显示全部）"
+msgstr "仓库关键字（留空 = 显示全部）"
 
 #: data/ui/search_settings.blp:33
 msgid ""
 "Comma separated keywords to match against enabled repositories\n"
 " Ex. 'fed' will match 'fedora'"
 msgstr ""
-"用逗号分隔的关键词来匹配已启用的仓库\n"
-"例如 'fed' 将匹配 'fedora'"
+"用于匹配已启用仓库的逗号分隔关键字\n"
+" 例如 'fed' 将匹配 'fedora'"
 
 #: data/ui/search_settings.blp:40
 msgid "Number of package versions"
@@ -582,15 +577,15 @@ msgstr "在文件系统中搜索"
 
 #: data/ui/search_settings.blp:56
 msgid "Search in containing files"
-msgstr "在包含的文件中搜索"
+msgstr "在包含文件中搜索"
 
 #: data/ui/search_settings.blp:61
 msgid "Search in provides"
-msgstr "在提供的内容中搜索"
+msgstr "在提供中搜索"
 
 #: data/ui/search_settings.blp:62
 msgid "Search in package provides"
-msgstr "在软件包提供的内容中搜索"
+msgstr "在软件包提供中搜索"
 
 #: data/ui/search_settings.blp:67
 msgid "Search in binaries"
@@ -694,7 +689,7 @@ msgstr "队列视图"
 
 #: data/ui/shortcuts-dialog.blp:102
 msgid "Clear Queue"
-msgstr "清除队列"
+msgstr "清空队列"
 
 #: data/ui/shortcuts-dialog.blp:108
 msgid "Flatpak View"
@@ -702,20 +697,20 @@ msgstr "Flatpak 视图"
 
 #: data/ui/shortcuts-dialog.blp:111
 msgid "Search for flatpaks to install"
-msgstr "搜索要安装的 Flatpak"
+msgstr "搜索要安装的 flatpak"
 
 #: data/ui/shortcuts-dialog.blp:116
 msgid "Remove selected flatpak"
-msgstr "移除选中的 Flatpak"
+msgstr "移除选定的 flatpak"
 
 #: data/ui/window.blp:5 data/dk.yumex.Yumex.desktop.in.in:2
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:7
 msgid "Yum Extender"
-msgstr "Yum Extender "
+msgstr "Yum Extender"
 
 #: data/ui/window.blp:29
 msgid "Select Package filters"
-msgstr "选择软件包过滤规则"
+msgstr "选择软件包过滤器"
 
 #: data/ui/window.blp:48
 msgid "Package Action Menu"
@@ -731,7 +726,7 @@ msgstr "应用"
 
 #: data/ui/window.blp:79
 msgid "Apply Package Actions"
-msgstr "应用软件包动作"
+msgstr "应用软件包操作"
 
 #: data/ui/window.blp:98
 msgid "Package Name"
@@ -751,15 +746,15 @@ msgstr "更新所有 Flatpak（应用和运行时）"
 
 #: data/ui/window.blp:200
 msgid "search for new flatpak to install"
-msgstr "搜索要安装的新 Flatpak"
+msgstr "搜索要安装的新 flatpak"
 
 #: data/ui/window.blp:206
 msgid "uninstall selected flatpak"
-msgstr "卸载选中的 Flatpak"
+msgstr "卸载选定的 flatpak"
 
 #: data/ui/window.blp:212
 msgid "Remove unused flatpaks (runtimes etc.)"
-msgstr "移除未使用的 Flatpak（运行时等）"
+msgstr "移除未使用的 flatpak（运行时等）"
 
 #: data/ui/window.blp:224
 msgid "show/hide runtimes"
@@ -779,7 +774,7 @@ msgstr "从队列中移除全部"
 
 #: data/ui/window.blp:288
 msgid "_Preferences"
-msgstr "_首选项"
+msgstr "首选项(_P)"
 
 #: data/ui/window.blp:298
 msgid "Keyboard Shortcuts"
@@ -787,19 +782,19 @@ msgstr "键盘快捷键"
 
 #: data/ui/window.blp:303
 msgid "_About Yum Extender"
-msgstr "_关于 Yum Extender"
+msgstr "关于 Yum Extender(_A)"
 
 #: data/ui/window.blp:312
 msgid "_Downgrade"
-msgstr "_降级"
+msgstr "降级(_D)"
 
 #: data/ui/window.blp:317
 msgid "_Reinstall"
-msgstr "_重新安装"
+msgstr "重新安装(_R)"
 
 #: data/ui/window.blp:322
 msgid "_Distro Sync"
-msgstr "_发行版同步"
+msgstr "发行版同步(_D)"
 
 #: data/ui/error_dialog.blp:16 data/ui/error_dialog.blp:44
 msgid "Yum Extender Error"
@@ -807,15 +802,15 @@ msgstr "Yum Extender 错误"
 
 #: data/ui/error_dialog.blp:22
 msgid "Copy error to clipboard"
-msgstr "复制错误到剪贴板"
+msgstr "将错误信息复制到剪贴板"
 
 #: data/ui/transaction_result.blp:16
 msgid "Transaction Result"
-msgstr "操作结果"
+msgstr "事务结果"
 
 #: data/ui/transaction_result.blp:64
 msgid "dnf5daemon-server is updated, consider using offline transaction"
-msgstr "dnf5daemon-server 已更新，建议使用离线操作"
+msgstr "dnf5daemon-server 已更新，请考虑使用离线事务"
 
 #: data/ui/transaction_result.blp:65
 msgid ""
@@ -823,13 +818,13 @@ msgid ""
 "Updating the dnfdaemon-server will restart the service.\n"
 " This can cause an error in Yum Extender"
 msgstr ""
-"dnf5daemon-server 正在将操作应用到系统。\n"
-"更新 dnfdaemon-server 将重启该服务。\n"
-"这可能会导致 Yum Extender 出现错误"
+"dnf5daemon-server 正在将事务应用于系统。\n"
+"更新 dnfdaemon-server 将重新启动该服务。\n"
+"这可能会导致 Yum Extender 出错"
 
 #: data/ui/transaction_result.blp:101
 msgid "Problems in Transaction"
-msgstr "操作中的问题"
+msgstr "事务中存在问题"
 
 #: data/ui/transaction_result.blp:112
 msgid "Copy to clipboard"
@@ -841,11 +836,11 @@ msgstr "安装大小"
 
 #: data/ui/transaction_result.blp:153
 msgid "Offline Transaction"
-msgstr "离线操作"
+msgstr "离线事务"
 
 #: data/ui/transaction_result.blp:154
 msgid "This transaction will be performed offline during reboot"
-msgstr "此操作将在重启期间离线执行"
+msgstr "此事务将在重启期间离线执行"
 
 #: data/dk.yumex.Yumex-flatpakref.desktop.in.in:2
 msgid "Yum Extender Flatpak Installer"
@@ -853,7 +848,7 @@ msgstr "Yum Extender Flatpak 安装器"
 
 #: data/dk.yumex.Yumex-flatpakref.desktop.in.in:3
 msgid "Install flatpak defined in .flatpakref"
-msgstr "安装 .flatpakref 中定义的 Flatpak"
+msgstr "安装 .flatpakref 中定义的 flatpak"
 
 #: data/dk.yumex.Yumex-flatpakref.desktop.in.in:10
 #: data/dk.yumex.Yumex-rpm.desktop.in.in:10
@@ -871,11 +866,11 @@ msgstr "安装 .rpm 文件"
 
 #: data/dk.yumex.Yumex.desktop.in.in:3
 msgid "Install, update and remove applications"
-msgstr "安装、更新和删除应用程序"
+msgstr "安装、更新和移除应用程序"
 
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:8
 msgid "Graphical package manager"
-msgstr "图形化包管理器"
+msgstr "图形化软件包管理器"
 
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:9
 msgid "Tim Lauridsen"
@@ -883,28 +878,29 @@ msgstr "Tim Lauridsen"
 
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:13
 msgid ""
-"Yum Extender is a graphical package management application. It allows you to"
-" search and browse for packages to install, remove and update on your "
+"Yum Extender is a graphical package management application. It allows you to "
+"search and browse for packages to install, remove and update on your "
 "computer."
-msgstr "Yum Extender 是一个图形化包管理应用程序。它允许您搜索和浏览要在计算机上安装、删除和更新的软件包。"
+msgstr ""
+"Yum Extender 是一款图形化软件包管理应用。它允许您搜索和浏览要在计算机上安装、移除和更新的软件包。"
 
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:18
 msgid ""
 "It is designed to give you full control over the packages on your computer "
 "and to be used by all users."
-msgstr "它旨在为您提供对计算机上软件包的完全控制，并供所有用户使用。"
+msgstr "它旨在让您完全控制计算机上的软件包，并面向所有用户。"
 
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:20
 msgid "Features:"
-msgstr "功能："
+msgstr "特性："
 
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:22
 msgid "Browse packages available for installation or update"
-msgstr "浏览可安装或更新的软件包"
+msgstr "浏览可供安装或更新的软件包"
 
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:23
 msgid "Browse packages installed on your computer"
-msgstr "浏览计算机上已安装的软件包"
+msgstr "浏览您计算机上已安装的软件包"
 
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:24
 msgid "Search packages by name, summary, description"
@@ -912,68 +908,68 @@ msgstr "按名称、摘要、描述搜索软件包"
 
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:25
 msgid "Browse Installed flatpaks"
-msgstr "浏览已安装的 Flatpak"
+msgstr "浏览已安装的 flatpak"
 
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:26
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:118
 msgid "Install, remove and update flatpaks"
-msgstr "安装、删除和更新 Flatpak"
+msgstr "安装、移除和更新 flatpak"
 
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:44
 msgid "Yum Extender 5.4.0 add many fixes and improvments"
-msgstr "Yum Extender 5.4.0 添加了许多修复和改进"
+msgstr "Yum Extender 5.4.0 添加了多项修复和改进"
 
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:46
 msgid "Added support for offline transaction during boot"
-msgstr "添加了启动期间离线操作的支持"
+msgstr "添加了对启动期间离线事务的支持"
 
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:47
 msgid "Added support of reinstall, downgrade,distro-sync"
-msgstr "添加了重新安装、降级、发行版同步的支持"
+msgstr "添加了对重新安装、降级、发行版同步的支持"
 
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:48
 msgid "Added support for system upgrade to next Fedora release"
-msgstr "添加了系统升级到下一个 Fedora 版本的支持"
+msgstr "添加了对升级到下一个 Fedora 版本的系统升级支持"
 
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:49
 msgid "Added support for installing .rpm files from file manager"
-msgstr "添加了从文件管理器安装 .rpm 文件的支持"
+msgstr "添加了对从文件管理器安装 .rpm 文件的支持"
 
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:55
 msgid "Yum Extender 5.2.0 add many fixes and improvments"
-msgstr "Yum Extender 5.2.0 添加了许多修复和改进"
+msgstr "Yum Extender 5.2.0 添加了多项修复和改进"
 
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:57
 msgid "Use only dnf5daemon for all package actions"
-msgstr "对所有包操作仅使用 dnf5daemon"
+msgstr "所有软件包操作仅使用 dnf5daemon"
 
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:63
 msgid "Yum Extender 5.0.3 add many fixes and improvments"
-msgstr "Yum Extender 5.0.3 添加了许多修复和改进"
+msgstr "Yum Extender 5.0.3 添加了多项修复和改进"
 
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:68
 msgid "Yum Extender 5.0.2 add many fixes and improvments"
-msgstr "Yum Extender 5.0.2 添加了许多修复和改进"
+msgstr "Yum Extender 5.0.2 添加了多项修复和改进"
 
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:70
 msgid "Added support for notifications on updates"
-msgstr "添加了更新通知支持"
+msgstr "添加了对更新通知的支持"
 
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:71
 msgid "Improved configuration of yumex-updater in yumex ui"
-msgstr "改进了 yumex 用户界面中的 yumex-updater 配置"
+msgstr "改进了 yumex 界面中 yumex-updater 的配置"
 
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:77
 msgid "Yum Extender 5.0.1 add many fixes and small improvments"
-msgstr "Yum Extender 5.0.1 添加了许多修复和小改进"
+msgstr "Yum Extender 5.0.1 添加了多项修复和小改进"
 
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:79
 msgid "Add yumex-updater systray application there checks for updates"
-msgstr "添加检查更新的 yumex-updater 系统托盘应用程序"
+msgstr "添加了 yumex-updater 系统托盘应用程序，用于检查更新"
 
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:85
 msgid "Yum Extender 5.0.0 add many fixes and small improvments"
-msgstr "Yum Extender 5.0.0 添加了许多修复和小改进"
+msgstr "Yum Extender 5.0.0 添加了多项修复和小改进"
 
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:87
 msgid "Support for update info with dnf5"
@@ -981,11 +977,11 @@ msgstr "支持 dnf5 的更新信息"
 
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:88
 msgid "new improved flatpak installer"
-msgstr "新的改进版 Flatpak 安装器"
+msgstr "全新改进的 flatpak 安装器"
 
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:89
 msgid "cleanup unused flatpaks"
-msgstr "清理未使用的 Flatpak"
+msgstr "清理未使用的 flatpak"
 
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:90
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:100
@@ -995,7 +991,7 @@ msgstr "大量代码修复和优化"
 
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:96
 msgid "Yum Extender 4.9.4 add many fixes and small improvments"
-msgstr "Yum Extender 4.9.4 添加了许多修复和小改进"
+msgstr "Yum Extender 4.9.4 添加了多项修复和小改进"
 
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:98
 msgid "Support for importing gpg keys from repositories"
@@ -1003,23 +999,23 @@ msgstr "支持从仓库导入 GPG 密钥"
 
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:99
 msgid "fix installing and updating flatpaks at system location"
-msgstr "修复在系统位置安装和更新 Flatpak"
+msgstr "修复在系统位置安装和更新 flatpak 的问题"
 
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:106
 msgid "Yum Extender 4.9.3 improve the flatpak installer"
-msgstr "Yum Extender 4.9.3 改进了 Flatpak 安装器"
+msgstr "Yum Extender 4.9.3 改进了 flatpak 安装器"
 
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:108
 msgid "flatpak install with search and select available results"
-msgstr "Flatpak 安装支持搜索和选择可用结果"
+msgstr "flatpak 安装支持搜索并选择可用结果"
 
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:115
 msgid "Yum Extender 4.9.2 adds support for flatpaks"
-msgstr "Yum Extender 4.9.2 添加了 Flatpak 支持"
+msgstr "Yum Extender 4.9.2 添加了对 flatpak 的支持"
 
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:117
 msgid "Browse installed flatpaks"
-msgstr "浏览已安装的 Flatpak"
+msgstr "浏览已安装的 flatpak"
 
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:124
 msgid "Yum Extender 4.9.1 is a total rewrite using a modern toolchain"
@@ -1027,11 +1023,11 @@ msgstr "Yum Extender 4.9.1 使用现代工具链完全重写"
 
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:126
 msgid "New fresh scalable UI using Gtk4 and Libadwaita"
-msgstr "使用 Gtk4 和 Libadwaita 的全新可扩展 UI"
+msgstr "使用 Gtk4 和 Libadwaita 的全新可缩放用户界面"
 
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:127
 msgid "Using dnf directly for readonly actions"
-msgstr "对只读操作直接使用 dnf"
+msgstr "只读操作直接使用 dnf"
 
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:140
 msgid "yumex"
@@ -1043,4 +1039,4 @@ msgstr "yumex-dnf"
 
 #: data/dk.yumex.Yumex.metainfo.xml.in.in:142
 msgid "Package Manager"
-msgstr "包管理器"
+msgstr "软件包管理器"
